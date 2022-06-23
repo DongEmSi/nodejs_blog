@@ -1,1 +1,1 @@
-# nodejs_blog
+# nodejs_lab1
