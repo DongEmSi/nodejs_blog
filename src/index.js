@@ -10,7 +10,7 @@ const route = require('./routes')
 
 //use static file
 app.use(express.static(path.join(__dirname, 'public')))
-//node-sass chuyển đổi scss sang css
+//node-sass chuyển đổi scss sang css, debug
 
 app.use(express.urlencoded({
   extended: true //chọn qs library để parsing url và encoding data
@@ -26,9 +26,7 @@ app.set('view engine', '.hbs');
 app.set('views', path.join(__dirname, 'resources/views'))
 //app.enable('view cache')
 
-
 route(app)
-
 
 app.listen(port, () => {
   console.log(`App listening on port ${port}`) //http://localhost:3000/ 
