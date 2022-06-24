@@ -1,10 +1,9 @@
 class SiteController {
-    //[GET] /    
+    //[GET] /
     index(req, res) {
-        res.render('home')
+        res.render('home');
     }
 }
 
-
-//Tạo ra instance SiteController ra ngoài khi được gọi 
-module.exports = new SiteController()
+//Tạo ra instance SiteController ra ngoài khi được gọi
+module.exports = new SiteController();

@@ -1,16 +1,15 @@
 class NewsController {
     //Index: lấy ra trang chính của news
-    //[GET] /news    
+    //[GET] /news
     index(req, res) {
-        res.render('news')
+        res.render('news');
     }
 
-    //[GET] /news/:slug 
+    //[GET] /news/:slug
     show(req, res) {
-        res.send('NEWS DETAILS!!!')
+        res.send('NEWS DETAILS!!!');
     }
 }
 
-
-//Tạo ra instance NewsController ra ngoài khi được gọi 
-module.exports = new NewsController()
+//Tạo ra instance NewsController ra ngoài khi được gọi
+module.exports = new NewsController();
