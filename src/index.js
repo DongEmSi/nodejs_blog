@@ -28,10 +28,14 @@ app.set('view engine', '.hbs');
 app.set('views', path.join(__dirname, 'resources/views'));
 //app.enable('view cache')
 
-                                    route(app);
+          route(app);
 
 app.listen(port, () => {
-          
-
-	console.log(`App listening on port ${port}`); //http://localhost:3000/
+    
+    
+    
+    
+    
+    
+    console.log(`App listening on port ${port}`); //http://localhost:3000/
 });
