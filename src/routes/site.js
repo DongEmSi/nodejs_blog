@@ -9,6 +9,6 @@ const siteController = require('../app/controllers/siteController');
 
 // router.use('/:slug', newsController.show)
 
-router.use('/', siteController.index);
+router.get('/', siteController.index);
 
 module.exports = router;

@@ -1,6 +1,6 @@
 @import 'variables';
 
-h1 {
-    color: $red-color;
-    background-color: yellow;
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
 }

@@ -5,8 +5,8 @@ const newsController = require('../app/controllers/NewsController');
 
 //path /news/ đã được định nghĩa ở bên index.js nên ta chỉ cần '/'
 
-router.use('/:slug', newsController.show);
+router.get('/:slug', newsController.show);
 
-router.use('/', newsController.index);
+router.get('/', newsController.index);
 
 module.exports = router;
